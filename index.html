@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kaffeé</title>
+</head>
+<body>
+    <div class="main">
+     <div class="nav">
+        <div class="logo">
+          Kaffeé
+        </div>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+         <a href="signupform.html" class="login-btn">Login</a>
+
+     </div>
+     <section id="hero">
+        <div class="left">
+            <h1>Sip, savor, and enjoy the moment.</h1>
+            <p>At <strong>Kaffeé</strong> we believe that every cup of coffee is a journey. 
+                From the bean to the brew, we are dedicated to crafting the perfect experience for coffee lovers.</p>
+             <button class="hero-btn">View Menu</button>
+        </div>
+        <div class="right">
+            <img src="images/hero.jpg">
+        </div>
+     </section>
+          
+     <section id="about">
+        <div class="about-title">
+            <h1>About us</h1>
+        </div>
+        <div class="about-content">
+            <div class="aboutleft">
+                <img src="images/aboutus.jpg">
+            </div>
+            <div class="aboutright">
+                <h1>“Dedicated to the craft of coffee and the joy it brings.”</h1>
+                <h2>Vision Statement</h2>
+                <p>To be the heart of our community, where every cup of coffee fosters connection, creativity, and a sense of belonging.</p>
+                <h2>Mission Statement</h2>
+                <p>At <strong>Kaffeé</strong>, our mission is to provide exceptional coffee experiences that delight the senses. We are committed to sourcing the finest beans, supporting sustainable practices, and creating a warm, inviting atmosphere where everyone feels welcome. We strive to be a gathering place for friends, families, and neighbors, celebrating the joy of coffee and community.</p>
+            </div>
+        </div>
+    </section>
+    <article id="menu">
+      <h1>Best Seller's</h1>
+    
+      <div class="menu-container">
+        <!-- Item 1 -->
+        <div class="item-card">
+          <img src="images/black coffee.jpg" alt="Black Coffee">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Black Coffee</h2>
+              <span>$3.50</span>
+            </div>
+            <p>A bold, rich brew with no frills—just pure coffee flavor for true enthusiasts.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+    
+        <!-- Item 2 -->
+        <div class="item-card">
+          <img src="images/cappucino.jpg" alt="Cappuccino">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Cappuccino</h2>
+              <span>$4.00</span>
+            </div>
+            <p>Silky milk foam and a strong espresso base—creamy and satisfying in every sip.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+    
+        <!-- Item 3 -->
+        <div class="item-card">
+          <img src="images/chocolate.jpg" alt="Chocolate Coffee">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Chocolate Coffee</h2>
+              <span>$4.25</span>
+            </div>
+            <p>Rich chocolate blended with espresso, delivering a smooth mocha experience.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+    
+        <!-- Item 4 -->
+        <div class="item-card">
+          <img src="images/croissant.jpg" alt="Croissant">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Croissant</h2>
+              <span>$2.75</span>
+            </div>
+            <p>Flaky, buttery pastry baked to golden perfection—light and irresistible.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+    
+        <!-- Item 5 -->
+        <div class="item-card">
+          <img src="images/donut.jpg" alt="Donut">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Donut</h2>
+              <span>$1.95</span>
+            </div>
+            <p>Soft and sweet, with a glaze that melts in your mouth. A classic treat.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+    
+        <!-- Item 6 -->
+        <div class="item-card">
+          <img src="images/pancake.jpg" alt="Pancake">
+          <div class="item-content">
+            <div class="item-header">
+              <h2>Pancake</h2>
+              <span>$3.80</span>
+            </div>
+            <p>Fluffy stacks served warm with syrup—a comforting breakfast favorite.</p>
+            <button class="item-btn"><a href="ordernow.html">Order Now</a></button>
+          </div>
+        </div>
+      </div>
+    </article>
+          <article id="contact">
+            <div class="container-contact">
+            <div class="contact-heading">
+               <h1>Contact</h1>
+              </div>
+               <div class="message">
+                <h2>Send Us a Message</h2>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required>
+
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required>
+
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" name="subject" required>
+                  
+                  <label for="message">Message</label>
+                  <textarea cols="44" rows="3" placeholder="Say something....">
+                  </textarea>
+                  <button class="contact-btn">Submit</button>
+               </div>         
+              </div>
+          </article>
+          <footer class="footer">
+             <div class="cta">
+               <h1>Join our Newsletter</h1>
+               <p>Stay updated with our latest offers, seasonal specials, and coffee stories.</p>
+             </div>
+             <div class="cta-forms">
+              <input type="email" id="@email" name="email" placeholder="Enter your Email">
+              <button class="cta-btn">Subscribe</button>
+            </div>
+              <div class="rights">
+                 <p>© 2025 Kaffeé. All rights reserved.</p>
+                 <div class="links">
+                  <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                 </ul>
+              </div>
+              </div>
+          </footer>
+    </div>
+</body>
+</html>
